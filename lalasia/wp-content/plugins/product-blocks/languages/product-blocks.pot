@@ -1,0 +1,2730 @@
+# Copyright (C) 2021 wpxpo
+# This file is distributed under the same license as the ProductX – Gutenberg WooCommerce Blocks plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: ProductX – Gutenberg WooCommerce Blocks 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/product-blocks\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-11T05:27:37+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: product-blocks\n"
+
+#. Plugin Name of the plugin
+msgid "ProductX – Gutenberg WooCommerce Blocks"
+msgstr ""
+
+#. Description of the plugin
+msgid "WooCommerce blocks is a Gutenberg product blocks for WooCommerce, very useful for product listing, product grid, product slider and grid layout."
+msgstr ""
+
+#. Author of the plugin
+msgid "wpxpo"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpxpo.com/"
+msgstr ""
+
+#: addons/compare/Compare.php:66
+msgid "in stock"
+msgstr ""
+
+#: addons/compare/Compare.php:74
+msgid "Product"
+msgstr ""
+
+#: addons/compare/Compare.php:75
+#: addons/quickview/Quickview.php:154
+#: addons/wishlist/Wishlist.php:113
+#: assets/js/editor.blocks.min.js:1
+msgid "Price"
+msgstr ""
+
+#: addons/compare/Compare.php:76
+msgid "Availability"
+msgstr ""
+
+#: addons/compare/Compare.php:78
+#: addons/quickview/Quickview.php:168
+msgid "SKU"
+msgstr ""
+
+#: addons/compare/Compare.php:79
+#: addons/compare/Compare.php:241
+#: addons/wishlist/Wishlist.php:114
+#: addons/wishlist/Wishlist.php:270
+msgid "Action"
+msgstr ""
+
+#: addons/compare/Compare.php:107
+#: addons/compare/Compare.php:160
+#: addons/compare/Compare.php:201
+#: addons/compare/Compare.php:216
+#: addons/compare/init.php:11
+#: assets/js/editor.blocks.min.js:1
+msgid "Compare"
+msgstr ""
+
+#: addons/compare/Compare.php:110
+#: addons/compare/Compare.php:161
+#: addons/compare/Compare.php:221
+msgid "Added"
+msgstr ""
+
+#: addons/compare/Compare.php:141
+#: addons/quickview/Quickview.php:43
+#: addons/quickview/Quickview.php:119
+#: assets/js/editor.blocks.min.js:1
+msgid "Quick View"
+msgstr ""
+
+#: addons/compare/Compare.php:205
+msgid "Compare Settings"
+msgstr ""
+
+#: addons/compare/Compare.php:209
+msgid "Compare Page"
+msgstr ""
+
+#: addons/compare/Compare.php:211
+msgid "Use shortcode inside compare page."
+msgstr ""
+
+#: addons/compare/Compare.php:215
+#: addons/wishlist/Wishlist.php:245
+#: assets/js/editor.blocks.min.js:1
+msgid "Button Text"
+msgstr ""
+
+#: addons/compare/Compare.php:220
+msgid "Browse Text"
+msgstr ""
+
+#: addons/compare/Compare.php:222
+msgid "Lorem ipsum dolor sit amet."
+msgstr ""
+
+#: addons/compare/Compare.php:226
+#: addons/quickview/Quickview.php:85
+#: addons/quickview/Quickview.php:91
+#: addons/quickview/Quickview.php:98
+#: addons/quickview/Quickview.php:104
+#: addons/quickview/Quickview.php:111
+#: addons/wishlist/Wishlist.php:224
+#: addons/wishlist/Wishlist.php:231
+#: addons/wishlist/Wishlist.php:238
+#: addons/wishlist/Wishlist.php:255
+msgid "Enable / Disable"
+msgstr ""
+
+#: addons/compare/Compare.php:228
+msgid "Enable Compare in Single Page."
+msgstr ""
+
+#: addons/compare/Compare.php:232
+#: addons/wishlist/Wishlist.php:261
+msgid "Position on Single Page"
+msgstr ""
+
+#: addons/compare/Compare.php:234
+#: addons/wishlist/Wishlist.php:263
+msgid "Before Cart"
+msgstr ""
+
+#: addons/compare/Compare.php:235
+#: addons/wishlist/Wishlist.php:264
+msgid "After Cart"
+msgstr ""
+
+#: addons/compare/Compare.php:243
+msgid "Added to Compare"
+msgstr ""
+
+#: addons/compare/Compare.php:246
+msgid "Popup Compare"
+msgstr ""
+
+#: addons/compare/Compare.php:252
+#: addons/wishlist/Wishlist.php:281
+msgid "Action after Added"
+msgstr ""
+
+#: addons/compare/Compare.php:254
+#: addons/wishlist/Wishlist.php:283
+msgid "Popup"
+msgstr ""
+
+#: addons/compare/Compare.php:255
+#: addons/wishlist/Wishlist.php:284
+msgid "Redirect to Page"
+msgstr ""
+
+#: addons/compare/Compare.php:293
+msgid "Compare Added."
+msgstr ""
+
+#: addons/compare/Compare.php:298
+msgid "Compare Removed."
+msgstr ""
+
+#: addons/compare/Compare.php:308
+msgid "Compare Not Added."
+msgstr ""
+
+#: addons/compare/init.php:12
+msgid "Add Compare to Your Blocks."
+msgstr ""
+
+#: addons/flipimage/FlipImage.php:53
+msgid "Remove Flip Image"
+msgstr ""
+
+#: addons/flipimage/FlipImage.php:59
+msgid "Set listing image"
+msgstr ""
+
+#: addons/flipimage/FlipImage.php:59
+msgid "Choose an image"
+msgstr ""
+
+#: addons/flipimage/FlipImage.php:107
+#: addons/flipimage/init.php:11
+msgid "Flip Image"
+msgstr ""
+
+#: addons/flipimage/FlipImage.php:111
+msgid "Flip Image Settings"
+msgstr ""
+
+#: addons/flipimage/FlipImage.php:115
+msgid "Flip Image Source"
+msgstr ""
+
+#: addons/flipimage/FlipImage.php:117
+msgid "First Image From Gallery"
+msgstr ""
+
+#: addons/flipimage/FlipImage.php:120
+msgid "Extra Feature Image Sections"
+msgstr ""
+
+#: addons/flipimage/init.php:12
+msgid "Add Flip Image Option for Blocks."
+msgstr ""
+
+#: addons/quickview/init.php:11
+msgid "Quickview"
+msgstr ""
+
+#: addons/quickview/init.php:12
+msgid "Add Quickview to Your Blocks."
+msgstr ""
+
+#: addons/quickview/Quickview.php:77
+msgid "QuickView"
+msgstr ""
+
+#: addons/quickview/Quickview.php:81
+msgid "Quick View Settings"
+msgstr ""
+
+#: addons/quickview/Quickview.php:87
+msgid "Disable Quickview on Mobile."
+msgstr ""
+
+#: addons/quickview/Quickview.php:94
+msgid "Enable Product Navigation."
+msgstr ""
+
+#: addons/quickview/Quickview.php:100
+msgid "Enable Product Link."
+msgstr ""
+
+#: addons/quickview/Quickview.php:107
+msgid "Enable Gallery Images."
+msgstr ""
+
+#: addons/quickview/Quickview.php:114
+msgid "Enable Cart Redirect."
+msgstr ""
+
+#: addons/quickview/Quickview.php:118
+msgid "Quick View Text"
+msgstr ""
+
+#: addons/quickview/Quickview.php:123
+msgid "Disable Element in QuickView"
+msgstr ""
+
+#: addons/quickview/Quickview.php:126
+#: addons/wishlist/Wishlist.php:111
+#: blocks/Image.php:582
+#: assets/js/editor.blocks.min.js:1
+msgid "Image"
+msgstr ""
+
+#: addons/quickview/Quickview.php:133
+#: assets/js/editor.blocks.min.js:1
+msgid "Sales"
+msgstr ""
+
+#: addons/quickview/Quickview.php:140
+msgid "Rating"
+msgstr ""
+
+#: addons/quickview/Quickview.php:147
+#: assets/js/editor.blocks.min.js:1
+msgid "Title"
+msgstr ""
+
+#: addons/quickview/Quickview.php:161
+#: addons/wishlist/Wishlist.php:133
+#: addons/wishlist/Wishlist.php:135
+msgid "Stock"
+msgstr ""
+
+#: addons/quickview/Quickview.php:175
+msgid "Excerpt"
+msgstr ""
+
+#: addons/quickview/Quickview.php:182
+#: assets/js/editor.blocks.min.js:1
+msgid "Add to Cart"
+msgstr ""
+
+#: addons/quickview/Quickview.php:189
+#: assets/js/editor.blocks.min.js:1
+msgid "Category"
+msgstr ""
+
+#: addons/quickview/Quickview.php:196
+#: assets/js/editor.blocks.min.js:1
+msgid "Tag"
+msgstr ""
+
+#: addons/quickview/Quickview.php:285
+#: blocks/Product_Grid_1.php:3001
+#: blocks/Product_Grid_2.php:3004
+#: blocks/Product_Grid_3.php:2972
+#: blocks/Product_Grid_4.php:3096
+#: assets/js/editor.blocks.min.js:1
+msgid "Sale!"
+msgstr ""
+
+#: addons/quickview/Quickview.php:299
+#: blocks/template/review.php:7
+#: assets/js/editor.blocks.min.js:1
+msgid "out of 5"
+msgstr ""
+
+#: addons/quickview/Quickview.php:302
+msgid " customer review"
+msgstr ""
+
+#: addons/quickview/Quickview.php:329
+#: addons/quickview/Quickview.php:332
+msgid "AVAILABILITY:"
+msgstr ""
+
+#: addons/quickview/Quickview.php:329
+msgid "Out of Stock"
+msgstr ""
+
+#: addons/quickview/Quickview.php:332
+#: addons/wishlist/Wishlist.php:133
+#: addons/wishlist/Wishlist.php:135
+msgid "In Stock"
+msgstr ""
+
+#: addons/quickview/Quickview.php:339
+msgid "SKU:"
+msgstr ""
+
+#: addons/quickview/Quickview.php:365
+msgid "Category:"
+msgstr ""
+
+#: addons/quickview/Quickview.php:378
+msgid "Tags:"
+msgstr ""
+
+#: addons/templates/init.php:11
+#: addons/templates/Saved_Templates.php:88
+#: addons/templates/Saved_Templates.php:90
+msgid "Saved Templates"
+msgstr ""
+
+#: addons/templates/init.php:12
+msgid "Create Short-codes and use them inside your page or page builder."
+msgstr ""
+
+#: addons/templates/Saved_Templates.php:61
+msgid "Shortcode"
+msgstr ""
+
+#: addons/templates/Saved_Templates.php:86
+msgctxt "Templates"
+msgid "Saved Templates"
+msgstr ""
+
+#: addons/templates/Saved_Templates.php:87
+msgctxt "Templates"
+msgid "Saved Template"
+msgstr ""
+
+#: addons/templates/Saved_Templates.php:89
+msgid "Parent Template"
+msgstr ""
+
+#: addons/templates/Saved_Templates.php:91
+msgid "View Template"
+msgstr ""
+
+#: addons/templates/Saved_Templates.php:92
+#: addons/templates/Saved_Templates.php:93
+msgid "Add New Template"
+msgstr ""
+
+#: addons/templates/Saved_Templates.php:94
+msgid "Edit Template"
+msgstr ""
+
+#: addons/templates/Saved_Templates.php:95
+msgid "Update Template"
+msgstr ""
+
+#: addons/templates/Saved_Templates.php:96
+msgid "Search Template"
+msgstr ""
+
+#: addons/templates/Saved_Templates.php:97
+msgid "No Template Found"
+msgstr ""
+
+#: addons/templates/Saved_Templates.php:98
+msgid "Not Template found in Trash"
+msgstr ""
+
+#: addons/wishlist/init.php:11
+#: addons/wishlist/Wishlist.php:210
+#: assets/js/editor.blocks.min.js:1
+msgid "Wishlist"
+msgstr ""
+
+#: addons/wishlist/init.php:12
+msgid "Add Wishlist to Your Blocks."
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:73
+#: addons/wishlist/Wishlist.php:171
+#: addons/wishlist/Wishlist.php:246
+msgid "Add to Wishlist"
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:76
+#: addons/wishlist/Wishlist.php:172
+#: addons/wishlist/Wishlist.php:251
+msgid "Browse Wishlist"
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:112
+msgid "Name"
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:144
+msgid "Open Wishlist Page"
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:145
+msgid "Add All To Cart"
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:146
+msgid "Continue Shopping"
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:214
+msgid "Wishlist Settings"
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:218
+msgid "Wishlist Page"
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:220
+msgid "Use shortcode inside wishlist page."
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:227
+msgid "Require Login for Wishlist."
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:234
+msgid "Empty Wishlist After Click."
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:241
+msgid "Redirect to Cart."
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:250
+msgid "Browse Wishlist Text"
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:257
+msgid "Enable Wishlist in Single Page."
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:272
+msgid "Added to Wishlist"
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:275
+msgid "Popup Wishlist"
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:328
+#: addons/wishlist/Wishlist.php:329
+msgid "Wishlist Added."
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:338
+#: addons/wishlist/Wishlist.php:350
+#: addons/wishlist/Wishlist.php:358
+msgid "Wishlist Removed."
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:360
+msgid "Wishlist Already Removed."
+msgstr ""
+
+#: addons/wishlist/Wishlist.php:363
+msgid "Wishlist Not Added."
+msgstr ""
+
+#: blocks/Heading.php:714
+#: assets/js/editor.blocks.min.js:1
+msgid "Heading"
+msgstr ""
+
+#: blocks/Product_Category_1.php:1879
+#: assets/js/editor.blocks.min.js:1
+msgid "Product Category #1"
+msgstr ""
+
+#: blocks/Product_Category_1.php:1943
+#: blocks/Product_Category_2.php:1444
+#: assets/js/editor.blocks.min.js:1
+msgid "products"
+msgstr ""
+
+#: blocks/Product_Category_1.php:1949
+#: blocks/Product_Category_2.php:1450
+#: assets/js/editor.blocks.min.js:1
+msgid "Read More"
+msgstr ""
+
+#: blocks/Product_Category_2.php:1396
+#: assets/js/editor.blocks.min.js:1
+msgid "Product Category #2"
+msgstr ""
+
+#: blocks/Product_Grid_1.php:2913
+#: assets/js/editor.blocks.min.js:1
+msgid "Product Grid #1"
+msgstr ""
+
+#: blocks/Product_Grid_1.php:3002
+#: blocks/Product_Grid_2.php:3005
+#: blocks/Product_Grid_3.php:2973
+#: blocks/Product_Grid_4.php:3097
+msgid " Off"
+msgstr ""
+
+#: blocks/Product_Grid_1.php:3007
+#: blocks/Product_Grid_2.php:3010
+#: blocks/Product_Grid_3.php:2978
+#: blocks/Product_Grid_4.php:3102
+#: assets/js/editor.blocks.min.js:1
+msgid "Hot"
+msgstr ""
+
+#: blocks/Product_Grid_1.php:3050
+#: blocks/Product_Grid_2.php:3052
+#: blocks/Product_Grid_3.php:3048
+#: blocks/Product_Grid_4.php:3158
+#: assets/js/editor.blocks.min.js:1
+msgid "Out of stock"
+msgstr ""
+
+#: blocks/Product_Grid_2.php:2920
+#: assets/js/editor.blocks.min.js:1
+msgid "Product Grid #2"
+msgstr ""
+
+#: blocks/Product_Grid_3.php:2887
+#: assets/js/editor.blocks.min.js:1
+msgid "Product Grid #3"
+msgstr ""
+
+#: blocks/Product_Grid_4.php:3011
+#: assets/js/editor.blocks.min.js:1
+msgid "Product Grid #4"
+msgstr ""
+
+#: blocks/Product_List_1.php:2209
+#: assets/js/editor.blocks.min.js:1
+msgid "Product List #1"
+msgstr ""
+
+#: classes/Deactive.php:77
+msgid "Want to help make <strong style=\"padding:0 5px;\"> %1$s </strong> even more awesome? Allow %1$s to collect <a style=\"padding:0 5px;\" href=\""
+msgstr ""
+
+#: classes/Deactive.php:78
+msgid "Allow"
+msgstr ""
+
+#: classes/Deactive.php:79
+msgid "No Thanks"
+msgstr ""
+
+#: classes/Deactive.php:134
+msgid "I no longer need the plugin."
+msgstr ""
+
+#: classes/Deactive.php:139
+msgid "I found a better plugin."
+msgstr ""
+
+#: classes/Deactive.php:140
+msgid "Please share which plugin."
+msgstr ""
+
+#: classes/Deactive.php:145
+msgid "The plugin suddenly stopped working."
+msgstr ""
+
+#: classes/Deactive.php:146
+msgid "Please share more details."
+msgstr ""
+
+#: classes/Deactive.php:151
+msgid "I could not get the plugin to work."
+msgstr ""
+
+#: classes/Deactive.php:156
+msgid "It's a temporary deactivation."
+msgstr ""
+
+#: classes/Deactive.php:161
+msgid "Other."
+msgstr ""
+
+#: classes/Deactive.php:162
+msgid "Please share the reason."
+msgstr ""
+
+#: classes/Deactive.php:188
+msgid "Quick Feedback"
+msgstr ""
+
+#: classes/Deactive.php:193
+msgid "If you have a moment, please let us know why you are deactivating ProductX:"
+msgstr ""
+
+#: classes/Deactive.php:210
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: classes/Deactive.php:211
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: classes/Functions.php:111
+#: assets/js/editor.blocks.min.js:1
+msgid "Days"
+msgstr ""
+
+#: classes/Functions.php:115
+#: assets/js/editor.blocks.min.js:1
+msgid "Hours"
+msgstr ""
+
+#: classes/Functions.php:119
+#: assets/js/editor.blocks.min.js:1
+msgid "Minutes"
+msgstr ""
+
+#: classes/Functions.php:123
+#: assets/js/editor.blocks.min.js:1
+msgid "Seconds"
+msgstr ""
+
+#: classes/Functions.php:473
+#: classes/Functions.php:475
+msgid "View Cart"
+msgstr ""
+
+#: classes/Functions.php:987
+#: assets/js/editor.blocks.min.js:1
+msgid "Previous"
+msgstr ""
+
+#: classes/Functions.php:1007
+#: assets/js/editor.blocks.min.js:1
+msgid "Next"
+msgstr ""
+
+#: classes/Functions.php:1199
+#: assets/js/editor.blocks.min.js:1
+msgid "- Select -"
+msgstr ""
+
+#: classes/Initialization.php:311
+msgid "WooCommerce Blocks"
+msgstr ""
+
+#: classes/Notice.php:93
+#: classes/Notice.php:119
+#: classes/Notice.php:145
+msgid "Dismiss"
+msgstr ""
+
+#: classes/Notice.php:120
+#: classes/Notice.php:146
+msgid "Welcome to Product Blocks."
+msgstr ""
+
+#: classes/Notice.php:121
+#: classes/Notice.php:147
+msgid "WooCommerce Product Blocks is a WooCommerce plugin. To use this plugins you have to install and activate WooCommerce."
+msgstr ""
+
+#: classes/Notice.php:122
+msgid "Install WooCommerce"
+msgstr ""
+
+#: classes/Notice.php:148
+msgid "Activate WooCommerce"
+msgstr ""
+
+#: classes/Options.php:54
+msgid "Docs"
+msgstr ""
+
+#: classes/Options.php:55
+msgid "Tutorials"
+msgstr ""
+
+#: classes/Options.php:56
+msgid "Support"
+msgstr ""
+
+#: classes/Options.php:76
+msgid "Go Pro"
+msgstr ""
+
+#: classes/Options.php:92
+#: classes/Options.php:93
+msgid "Woo Blocks"
+msgstr ""
+
+#: classes/Options.php:159
+msgid "CSS Save Method"
+msgstr ""
+
+#: classes/Options.php:161
+msgid "Header"
+msgstr ""
+
+#: classes/Options.php:162
+msgid "File System"
+msgstr ""
+
+#: classes/Options.php:165
+#: classes/options/Settings.php:57
+msgid "Select where you want to save CSS."
+msgstr ""
+
+#: classes/Options.php:169
+#: classes/options/Settings.php:61
+msgid "Container Width"
+msgstr ""
+
+#: classes/Options.php:171
+msgid "Change Container Width."
+msgstr ""
+
+#: classes/Options.php:175
+#: classes/options/Settings.php:77
+msgid "Hide Import Button"
+msgstr ""
+
+#: classes/Options.php:177
+#: classes/options/Settings.php:79
+msgid "Hide Import Layout Button from the Gutenberg Editor."
+msgstr ""
+
+#: classes/Options.php:230
+#: classes/options/Settings.php:131
+msgid "Released on "
+msgstr ""
+
+#: classes/Options.php:232
+#: classes/options/Settings.php:133
+msgid "Version"
+msgstr ""
+
+#: classes/options/Addons.php:39
+msgid "All Addons"
+msgstr ""
+
+#: classes/options/Addons.php:53
+#: assets/js/editor.blocks.min.js:1
+msgid "Get Pro"
+msgstr ""
+
+#: classes/options/Features.php:23
+msgid "Pro Features"
+msgstr ""
+
+#: classes/options/Features.php:26
+msgid "Advanced Query Builder"
+msgstr ""
+
+#: classes/options/Features.php:27
+msgid "Post Filter Ajax Powered"
+msgstr ""
+
+#: classes/options/Features.php:28
+msgid "Smart Image Flip Option"
+msgstr ""
+
+#: classes/options/Features.php:29
+msgid "AJAX Pagination and Loadmore"
+msgstr ""
+
+#: classes/options/Features.php:30
+#: classes/options/Features.php:33
+#: classes/options/Features.php:112
+#: classes/options/Overview.php:113
+msgid "Wishlist Addon"
+msgstr ""
+
+#: classes/options/Features.php:31
+#: classes/options/Features.php:117
+#: classes/options/Overview.php:49
+#: classes/options/Overview.php:104
+msgid "Compare Addon"
+msgstr ""
+
+#: classes/options/Features.php:32
+msgid "Product Quickview Addon"
+msgstr ""
+
+#: classes/options/Features.php:34
+msgid "Saved Templates & Shortcode"
+msgstr ""
+
+#: classes/options/Features.php:35
+msgid "Ready-made Starter Packs"
+msgstr ""
+
+#: classes/options/Features.php:36
+msgid "Ready-made Section Library"
+msgstr ""
+
+#: classes/options/Features.php:37
+msgid "Ready-made Design Library"
+msgstr ""
+
+#: classes/options/Features.php:38
+#: assets/js/editor.blocks.min.js:1
+msgid "Action Filter"
+msgstr ""
+
+#: classes/options/Features.php:39
+msgid "Product Carousel"
+msgstr ""
+
+#: classes/options/Features.php:40
+msgid "Product Navigations"
+msgstr ""
+
+#: classes/options/Features.php:41
+msgid "Sales Status"
+msgstr ""
+
+#: classes/options/Features.php:42
+msgid "Feature Tags"
+msgstr ""
+
+#: classes/options/Features.php:43
+msgid "Display Stocks"
+msgstr ""
+
+#: classes/options/Features.php:44
+msgid "Display Review"
+msgstr ""
+
+#: classes/options/Features.php:45
+msgid "Product Deals"
+msgstr ""
+
+#: classes/options/Features.php:46
+msgid "Lots of Pro Layouts"
+msgstr ""
+
+#: classes/options/Features.php:50
+msgid "More Features"
+msgstr ""
+
+#: classes/options/Features.php:56
+msgid "Reviews & Testimonials"
+msgstr ""
+
+#: classes/options/Features.php:60
+msgid "Custommer support replied very quickly and this for a free plugin…! Many options to customize, looking forward for upcoming updates, which hopefully add some more extra features."
+msgstr ""
+
+#: classes/options/Features.php:61
+msgid "@falconx82 – Excellent Plugin"
+msgstr ""
+
+#: classes/options/Features.php:65
+msgid "The plugin is just awesome!! Thank you for such wonderful blocks plugin for WooCommerce. This is one of the my favorite Blocks plugins."
+msgstr ""
+
+#: classes/options/Features.php:66
+msgid "@laursen299 – A Needed Extension for WooCommerce"
+msgstr ""
+
+#: classes/options/Features.php:72
+msgid "I come back here to rate this plugin, few mth ago to address multisite support and this plugin accept my suggestion and have this support. I have seen this plugin has larger potential for development as I search the rest of woo Gutenberg plugin this one is most supportive and useful, simple! Keep good work, and looking for your Pro version if you guy have it!"
+msgstr ""
+
+#: classes/options/Features.php:73
+msgid "@ivanli2020 – Good Listener of Developer and Potential Plugin!"
+msgstr ""
+
+#: classes/options/Features.php:77
+msgid "I would not go without it. Highly recommended plugins out there."
+msgstr ""
+
+#: classes/options/Features.php:78
+msgid "@sajib2seo – Excellent WooCommerce Extension."
+msgstr ""
+
+#: classes/options/Features.php:86
+msgid "Free Vs Pro Comparison"
+msgstr ""
+
+#: classes/options/Features.php:91
+msgid "Core Features"
+msgstr ""
+
+#: classes/options/Features.php:92
+#: assets/js/editor.blocks.min.js:1
+msgid "Free"
+msgstr ""
+
+#: classes/options/Features.php:93
+#: assets/js/editor.blocks.min.js:1
+msgid "Pro"
+msgstr ""
+
+#: classes/options/Features.php:97
+#: assets/js/editor.blocks.min.js:1
+msgid "Starter Packs"
+msgstr ""
+
+#: classes/options/Features.php:102
+msgid "Readymade Sections"
+msgstr ""
+
+#: classes/options/Features.php:107
+msgid "Quick Query Builder"
+msgstr ""
+
+#: classes/options/Features.php:122
+#: classes/options/Overview.php:46
+#: classes/options/Overview.php:131
+msgid "Quickview Addon"
+msgstr ""
+
+#: classes/options/Features.php:127
+msgid "Image Flip Addon"
+msgstr ""
+
+#: classes/options/Features.php:132
+#: classes/options/Overview.php:47
+#: classes/options/Overview.php:122
+msgid "Save Template Addon"
+msgstr ""
+
+#: classes/options/Features.php:137
+msgid "Priority Support"
+msgstr ""
+
+#: classes/options/Features.php:144
+#: classes/options/Overview.php:33
+msgid "Live Demo"
+msgstr ""
+
+#: classes/options/Features.php:145
+msgid "Buy Now"
+msgstr ""
+
+#: classes/options/Features.php:154
+msgid "Money Back"
+msgstr ""
+
+#: classes/options/Features.php:157
+msgid "100% No-Risk Money Back Guarantee! <span>(No questions asked!)</span>"
+msgstr ""
+
+#: classes/options/Features.php:158
+msgid "You are fully protected by our 100% No-Risk Double-Guarantee. If you don’t like  plugins over the next 14 days, then we will happily refund 100% of your money."
+msgstr ""
+
+#: classes/options/Features.php:159
+msgid "Credit Cards"
+msgstr ""
+
+#: classes/options/Footer.php:4
+msgid "Documentations"
+msgstr ""
+
+#: classes/options/Footer.php:5
+msgid "Got a question? Read our super rich documentation and solve your problem ASAP."
+msgstr ""
+
+#: classes/options/Footer.php:6
+msgid "Documentation"
+msgstr ""
+
+#: classes/options/Footer.php:9
+msgid "Submit Your Review"
+msgstr ""
+
+#: classes/options/Footer.php:10
+msgid "Are you satisfied with this plugin? Submit your valuable review in Wordpress directory."
+msgstr ""
+
+#: classes/options/Footer.php:11
+msgid "Leave a Review"
+msgstr ""
+
+#: classes/options/Footer.php:14
+msgid "Need any Helps"
+msgstr ""
+
+#: classes/options/Footer.php:15
+msgid "Have you any questions? Our super fast support ninja is waiting for your problems."
+msgstr ""
+
+#: classes/options/Footer.php:16
+msgid "Submit a Ticket »"
+msgstr ""
+
+#: classes/options/Heading.php:3
+msgid "ProductX"
+msgstr ""
+
+#: classes/options/Heading.php:5
+msgid "Welcome to <strong>ProductX</strong> - Version"
+msgstr ""
+
+#: classes/options/Heading.php:7
+msgid "Most Powerful & Advanced Gutenberg WooCommerce Blocks"
+msgstr ""
+
+#: classes/options/Heading.php:7
+msgid "Rate the plugin"
+msgstr ""
+
+#: classes/options/Overview.php:34
+#: classes/options/Overview.php:137
+msgid "Plugin Details"
+msgstr ""
+
+#: classes/options/Overview.php:42
+msgid "Why Upgrade to Pro"
+msgstr ""
+
+#: classes/options/Overview.php:43
+msgid "You are using lite version of ProductX. To get more awesome features to upgrade to the Pro version"
+msgstr ""
+
+#: classes/options/Overview.php:45
+msgid "Pro Sections, Layout & Design"
+msgstr ""
+
+#: classes/options/Overview.php:48
+msgid "Whishlist Addon"
+msgstr ""
+
+#: classes/options/Overview.php:50
+msgid "Flip Image Addon"
+msgstr ""
+
+#: classes/options/Overview.php:51
+msgid "Get All Blocks with Full Control"
+msgstr ""
+
+#: classes/options/Overview.php:52
+msgid "Fast & Priority Support"
+msgstr ""
+
+#: classes/options/Overview.php:54
+msgid "Upgrade Pro  ➤"
+msgstr ""
+
+#: classes/options/Overview.php:65
+msgid "Advanced <strong>Query</strong> Builder"
+msgstr ""
+
+#: classes/options/Overview.php:68
+msgid "<strong>Ajax</strong> Powered Post Filter"
+msgstr ""
+
+#: classes/options/Overview.php:71
+msgid "Quick <strong>Query</strong> Builder"
+msgstr ""
+
+#: classes/options/Overview.php:74
+msgid "Ready <strong>Starter</strong> Packs"
+msgstr ""
+
+#: classes/options/Overview.php:77
+msgid "Premade <strong>Block</strong> Design"
+msgstr ""
+
+#: classes/options/Overview.php:88
+msgid "Design Library"
+msgstr ""
+
+#: classes/options/Overview.php:89
+msgid "ProductX comes with a rich and beautiful readymade starter pack and design library. It helps you to create a beautiful site without design knowledge."
+msgstr ""
+
+#: classes/options/Overview.php:90
+msgid "Explore Details"
+msgstr ""
+
+#: classes/options/Overview.php:97
+msgid "Pro Addons"
+msgstr ""
+
+#: classes/options/Overview.php:105
+msgid "Customers need to compare different types of products for making decisions. Compare Addon create a compare table for making decisions easily."
+msgstr ""
+
+#: classes/options/Overview.php:114
+msgid "ProductX comes with a feature rich Wishlist addon. Wishlist is very helpful for users to save any product to profile for future purchase."
+msgstr ""
+
+#: classes/options/Overview.php:123
+msgid "Using this addon you can save Gutenberg blocks as a template and convert it into a shortcode. You can use this shortcode anywhere you want."
+msgstr ""
+
+#: classes/options/Overview.php:132
+msgid "Sometimes users want to view quick details of a product without going to a single page. This addon can help to popup a single product."
+msgstr ""
+
+#: classes/options/Settings.php:43
+#: classes/options/Settings.php:47
+msgid "General Settings"
+msgstr ""
+
+#: classes/options/Settings.php:51
+msgid "CSS Add Via"
+msgstr ""
+
+#: classes/options/Settings.php:53
+msgid "Header - (Internal)"
+msgstr ""
+
+#: classes/options/Settings.php:54
+msgid "File System - (External)"
+msgstr ""
+
+#: classes/options/Settings.php:63
+msgid "Change Container Width of the Page Template(Gutenberg Post Blocks Template)."
+msgstr ""
+
+#: classes/options/Settings.php:67
+msgid "Editor Container"
+msgstr ""
+
+#: classes/options/Settings.php:69
+msgid "Full Width"
+msgstr ""
+
+#: classes/options/Settings.php:70
+msgid "Theme Default"
+msgstr ""
+
+#: classes/options/Settings.php:73
+msgid "Select Editor Container Width."
+msgstr ""
+
+#: classes/options/Settings.php:184
+#: classes/options/Settings.php:242
+msgid "PRO"
+msgstr ""
+
+#: classes/options/Settings.php:288
+msgid "Changelog"
+msgstr ""
+
+#: classes/Styles.php:106
+#: classes/Styles.php:123
+msgid "Data retrive done"
+msgstr ""
+
+#: classes/Styles.php:108
+#: classes/Styles.php:125
+msgid "Data not found!!"
+msgstr ""
+
+#: classes/Styles.php:159
+msgid "CSS can not be saved due to permission!!!"
+msgstr ""
+
+#: classes/Styles.php:161
+msgid "Product Blocks css file has been updated."
+msgstr ""
+
+#: classes/Styles.php:168
+msgid "Product Blocks CSS Deleted."
+msgstr ""
+
+#: classes/Templates.php:58
+msgid "WooCommerce Template"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Settings"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Advanced"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Add Text..."
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show heading or title with ultimate controls."
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "heading"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "title"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "section"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Setting"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Upload Image"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Image Alt Text"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Link Type"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Link"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Button"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Self"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Blank"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Button Link"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Button Link Target"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Button Position"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Left Top"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Right Top"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Center Center"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Bottom Left"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Bottom Right"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Caption Enable"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Style"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Caption"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Alignment"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Caption Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Caption Typography"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Caption Margin"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show Image with ultimate controls."
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "image"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "media"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "gallery"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "img"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Explore"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Design"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Description"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Count"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Query Type"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Regular"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Child Of"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Parent"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Custom"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "No Products found"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Loading..."
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Posts are not available"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Make sure Add Post."
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Grid and Slider for Product Category."
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "category"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "taxonomy"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "listing"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "product"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Add to cart"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Layout 1"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Layout 2"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Layout 3"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Layout 4"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Layout 5"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Layout 6"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Product Grid in Classic Style."
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "grid"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "post"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "post type grid"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Products are not available"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Make sure Add Product."
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Product Grid in Modern Style."
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Content Layout"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Product Grid in Shop Listing Style."
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Image Flip"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Product Listing in Classic Style."
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Search in SKU"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Search in attributes"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Search in categories"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Search in tags"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Exclude \"out of stock\" products"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show loader"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show Search Button"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Highlight words"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show description"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "All Category Dropdown"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Product Search"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Search"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Ajax Search"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Wrapper"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Wrapper block for Gutenberg."
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "wrapper"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "wrap"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "column"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "row"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Quick Query"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "- Select Advance Query -"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Top Rated Product (Average)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Most Rated Product (Review Count)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Most Sales (Last 24hr)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Most Sales (Last 7 Days)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Most Sales (Last 1 Month)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Most Sales (Last 3 Month)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Most Sales (All Time)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Most View (All Time)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Number of Post"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Product Status"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "All"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Featured"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "On Sale"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Order By"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "New to Oldest"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Title Alphabetical"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Title Alphabetical Reversed"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Date"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Price High to Low"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Price Low to High"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Popular By Sales"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Popular By View"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Include Product"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Exclude Product"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Offset Product"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Position"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "None"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Over Image(Top Left)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Over Image(Top Right)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Over Image(Bottom Left)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Over Image(Bottom Right)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Over Image(Center)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Typography"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Normal"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Background Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Border"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Hover"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Hover Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Hover Bg Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Hover Border"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Border Radius"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Spacing"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Padding"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Product View"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Grid View"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Slide View"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Columns"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Column Grid Gap"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Row Gap"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Column Gap"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Slides To Show"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Auto Play"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Dots"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Arrows"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Slide Speed"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show Cart"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show Wish List"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show Quick View"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show Compare"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show Out of Stock"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show Sale"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show Hot (Featured)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show Deal"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show Price"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show Review"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show Short Description"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Filter"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Pagination"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Sort Element"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Cart Text"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Cart Active Text"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Hover Radius"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Arrow Style"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 1"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 2"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 3"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Size"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Width"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Height"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Vertical Position"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Horizontal Position"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "BoxShadow"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Hover BoxShadow"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Space"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Content Position"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Top"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Middle"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Bottom"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Small Height"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Add Heading"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Heading URL"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Heading Style"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 4"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 5"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 6"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 7"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 8"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 9"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 10"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 11"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 12"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 13"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 14"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 15"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 16"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 17"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 18"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 19"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Style 20"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Heading Tag"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Background"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Background 2"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Border Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Border Color 2"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Border Size"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Button Typography"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Button Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Button Hover Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Sub Heading"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Sub Heading Text"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Large Item"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Hover Animation"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "No Animation"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Zoom In"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Zoom Out"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Opacity"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Rotate Left"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Rotate Right"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Gray Scale"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Radius"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Hover Gray Scale"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Margin"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Overlay"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Overlay Type"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Default"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Simple Gradient"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Multi Colour"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Flat"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Custom Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Overlay Opacity"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Empty Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Fill Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Show Full Short Description"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Short Description Limit"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Count Text"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Text"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Sales Design"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Text (Sales)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Digit (-10%)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "(-10%) Off"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Sales Style"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Classic"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Ribbon"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Wishlist Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Wishlist Hover Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Label Text"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Conut Typography"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Day Typography"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Spacer"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Hover Background"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Read More Text"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "All Filter Text"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Filter Type"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Tags"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Top Sale"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Popular (View)"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Most Rated"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Top Rated"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "New Arrival"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Action Text"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Below Title"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Dropdown Text Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Dropdown Hover Color"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Dropdown Background"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Dropdown Radius"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Dropdown Padding"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Left"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Center"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Right"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Pagination Type"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Load More"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Text & Arrow"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Only Arrow"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Ajax Pagination"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Navigation Position"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Top Right"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Arrow Size"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "ID"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "z-index"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Hide On Extra Large"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Hide On Desktop"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Hide On Tablet"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Hide On Mobile"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Add {{WOPB}} before the selector to wrap element."
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "General"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Query"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Review"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Short Descrition"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Hots"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Deal"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Quick View Style"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Wishlist Style"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Overlay Meta Elements"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Content Style"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Content"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Dot"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Arrow"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Cart"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Button Style"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Responsive"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Custom CSS"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Layout"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Popular"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Left Center"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Left Bottom"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Right Center"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Right Bottom"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Center Top"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Center Bottom"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Scroll"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Fixed"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "No Repeat"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Repeat"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Repeat X"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Repeat Y"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Auto"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Cover"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Contain"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Animated"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Type"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Gradient"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Video"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Clear"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Background Image"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Parallax"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Attachment"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Video Source"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Local"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "External"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Video URL"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Fallback Image (Poster)"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Linear"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Radial"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Radial Pointer"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Top Left"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Direction"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Color 1 Angle"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Color 1"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Color 2 Angle"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Color 2"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Target Blank"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "No Follow"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+#: assets/js/editor.fields.min.js:1
+msgid "Upload"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Inherit"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Capitalize"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Lowercase"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Uppercase"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Italic"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Oblique"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Underline"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Overline"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Line Through"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Font Family"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Select Font"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Seach.."
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Font Size"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Line Height"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Letter Spacing"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Font Weight"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Transform"
+msgstr ""
+
+#: assets/js/editor.fields.min.js:1
+msgid "Decoration"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Readymade Block Design"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Premium"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Get License"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Import"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Live Preview"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Large"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Medium"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Small"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Extra Small"
+msgstr ""
+
+#: assets/js/editor.blocks.min.js:1
+msgid "Block Library"
+msgstr ""

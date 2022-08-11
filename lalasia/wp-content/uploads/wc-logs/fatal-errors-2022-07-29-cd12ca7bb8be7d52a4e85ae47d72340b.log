@@ -1,0 +1,25 @@
+2022-07-29T17:39:50+00:00 CRITICAL syntax error, unexpected token ":", expecting "," or ";" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 19
+
+2022-07-29T17:39:55+00:00 CRITICAL syntax error, unexpected token ":", expecting "," or ";" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 19
+
+2022-07-29T17:39:55+00:00 CRITICAL syntax error, unexpected token ":", expecting "," or ";" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 19
+
+2022-07-29T17:40:23+00:00 CRITICAL Uncaught Error: Call to a member function get_attributes() on null in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): wpshout_action_example('')
+#1 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lalasia\wp-includes\general-template.php(3042): do_action('wp_head')
+#4 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(17): wp_head()
+#5 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 17
+
+2022-07-29T17:41:43+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 15
+
+2022-07-29T17:41:46+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 15
+
+2022-07-29T17:43:01+00:00 CRITICAL syntax error, unexpected token "function" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 14
+

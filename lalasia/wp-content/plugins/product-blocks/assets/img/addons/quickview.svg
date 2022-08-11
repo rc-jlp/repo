@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="quickview-b" x1="0%" x2="102%" y1="0%" y2="101%">
+      <stop offset="0%" stop-color="#22C39F"/>
+      <stop offset="100%" stop-color="#0B8B89"/>
+    </linearGradient>
+    <rect id="quickview-a" width="128" height="128" x="0" y="0"/>
+    <linearGradient id="quickview-c" x1="1.467%" x2="106.784%" y1="49.874%" y2="40.395%">
+      <stop offset="0%" stop-opacity=".177"/>
+      <stop offset="100%" stop-color="#1FF4F7" stop-opacity=".133"/>
+    </linearGradient>
+    <rect id="quickview-e" width="90" height="90" x="19" y="19" rx="45"/>
+    <linearGradient id="quickview-g" x1="50%" x2="50%" y1="2.075%" y2="100%">
+      <stop offset="0%" stop-color="#2AB5A1"/>
+      <stop offset="100%" stop-color="#179068"/>
+    </linearGradient>
+    <linearGradient id="quickview-h" x1="50%" x2="50%" y1="0%" y2="98.633%">
+      <stop offset="0%" stop-color="#2FC09F"/>
+      <stop offset="100%" stop-color="#148979"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="quickview-d" fill="#fff">
+      <use xlink:href="#quickview-a"/>
+    </mask>
+    <use fill="url(#quickview-b)" xlink:href="#quickview-a"/>
+    <rect width="90" height="90" x="47.321" y="52.745" fill="url(#quickview-c)" mask="url(#quickview-d)" transform="rotate(50 92.32 97.745)"/>
+    <mask id="quickview-f" fill="#fff">
+      <use xlink:href="#quickview-e"/>
+    </mask>
+    <use fill="#FFF" xlink:href="#quickview-e"/>
+    <g mask="url(#quickview-f)">
+      <g transform="translate(32 32)">
+        <rect width="65" height="65"/>
+        <g fill-rule="nonzero" transform="translate(0 11)">
+          <ellipse cx="32.5" cy="20.5" fill="url(#quickview-g)" rx="12.188" ry="12.3"/>
+          <path fill="url(#quickview-h)" d="M32.5,0 C12.1875,0 0,20.3729 0,20.3729 C0,20.3729 12.1875,41 32.5,41 C52.8125,41 65,20.5 65,20.5 C65,20.5 52.8125,0 32.5,0 Z M32.5,36.9 C14.7265625,36.9 5.078125,20.5 5.078125,20.5 C5.078125,20.5 14.7265625,4.1 32.5,4.1 C50.2734375,4.1 59.921875,20.5 59.921875,20.5 C59.921875,20.5 50.2734375,36.9 32.5,36.9 Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

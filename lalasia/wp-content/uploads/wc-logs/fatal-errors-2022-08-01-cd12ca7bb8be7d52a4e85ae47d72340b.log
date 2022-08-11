@@ -1,0 +1,14 @@
+2022-08-01T22:49:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Freemius" not found in C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\lalasia\wp-admin\includes\plugin.php(1265): do_action('uninstall_woo-f...')
+#3 C:\xampp\htdocs\lalasia\wp-admin\includes\plugin.php(958): uninstall_plugin('woo-floating-ca...')
+#4 C:\xampp\htdocs\lalasia\wp-admin\includes\ajax-actions.php(4668): delete_plugins(Array)
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): wp_ajax_delete_plugin('')
+#6 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\lalasia\wp-admin\admin-ajax.php(187): do_action('wp_ajax_delete-...')
+#9 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php on line 307
+

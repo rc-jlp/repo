@@ -1,0 +1,128 @@
+/** popup **/
+.wopb-modal-wrap {
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1400;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.wopb-modal-wrap .wopb-modal-body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 40px;
+}
+
+.wopb-modal-wrap .wopb-modal-loading {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.wopb-modal-wrap .wopb-modal-loading.active {
+    opacity: 0.5;
+    visibility: visible;
+}
+.wopb-modal-wrap .wopb-modal-loading .wopb-loading {
+    left: 49%;
+    top: 50%;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    position: absolute;
+    border: 0.4rem solid rgba(255, 255, 255, 0.2);
+    border-top-color: #fff;
+    animation: spin 1s infinite linear;
+}
+.wopb-modal-wrap.active {
+    visibility: visible;
+    opacity: 1;
+    z-index: 999999;
+}
+.wopb-modal-wrap .wopb-modal-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.wopb-modal-wrap .wopb-modal-body-inner {
+    position: relative;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+   }
+    100% {
+        transform: rotate(360deg);
+   }
+}
+.wopb-modal-wrap .wopb-modal-close {
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    text-indent: -9999px;
+    padding: 0;
+    border-radius: 100px;
+    border: 1px solid #dadada;
+    background: #090909;
+    width: 30px;
+    height: 30px;
+    transition: 400ms;
+}
+.wopb-modal-wrap .wopb-modal-close:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 16px;
+    border-top: 2px solid;
+    margin-top: -1px;
+    margin-left: -8px;
+    transform: rotate(45deg);
+    color: #ffffff;
+    transition: 400ms;
+}
+.wopb-modal-wrap .wopb-modal-close:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 16px;
+    border-left: 2px solid;
+    margin-top: -8px;
+    margin-left: -1px;
+    transform: rotate(45deg);
+    color: #ffffff;
+    transition: 400ms;
+}
+.wopb-modal-wrap .wopb-modal-close:hover {
+    border: 1px solid #f31616;
+    background: #f31616;
+}
+.wopb-modal-wrap .wopb-modal-close:hover:before, .wopb-modal-wrap .wopb-modal-close:hover:after {
+    color: #fff;
+}
+
+/** end popup **/
+
+/** single product page **/
+.single-product .wopb-compare-btn, .single-product .wopb-wishlist-add {
+    width: 100%;
+    float: left;
+}
+/** end single product page **/
