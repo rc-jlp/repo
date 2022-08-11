@@ -1,0 +1,223 @@
+2022-07-26T15:42:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "woocommerce_product_category" not found or invalid function name in C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(177): do_action('woocommerce_bef...')
+#3 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(81): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_archive_product()
+#4 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render(Array, '')
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#6 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(241): WP_Block->render()
+#7 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#8 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#9 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#10 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#11 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php on line 307
+
+2022-07-26T15:42:28+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "woocommerce_product_category" not found or invalid function name in C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(177): do_action('woocommerce_bef...')
+#3 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(81): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_archive_product()
+#4 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render(Array, '')
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#6 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(241): WP_Block->render()
+#7 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#8 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#9 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#10 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#11 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php on line 307
+
+2022-07-26T15:42:52+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "woocommerce_product_category" not found or invalid function name in C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\templates\content-product.php(42): do_action('woocommerce_bef...')
+#3 C:\xampp\htdocs\lalasia\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#5 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(190): wc_get_template_part('content', 'product')
+#6 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(81): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_archive_product()
+#7 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render(Array, '')
+#8 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#9 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(241): WP_Block->render()
+#10 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#11 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#12 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#13 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#14 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php on line 307
+
+2022-07-26T15:52:32+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\lalasia\wp-content\plugins\tutsplus-product-archive-short-descriptions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): tutsplus_excerpt_in_product_archives('')
+#1 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\templates\content-product.php(57): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\lalasia\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(190): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(81): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_archive_product()
+#8 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render(Array, '')
+#9 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#10 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(241): WP_Block->render()
+#11 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#12 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#13 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#14 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#15 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\plugins\tutsplus-product-archive-short-descriptions.php on line 15
+
+2022-07-26T16:00:42+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\lalasia\wp-content\plugins\custom-get-product-details.php:17
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): add_category_above_title('')
+#1 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\templates\content-product.php(49): do_action('woocommerce_sho...')
+#4 C:\xampp\htdocs\lalasia\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(190): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(81): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_archive_product()
+#8 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render(Array, '')
+#9 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#10 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(241): WP_Block->render()
+#11 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#12 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#13 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#14 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#15 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\plugins\custom-get-product-details.php on line 17
+
+2022-07-26T16:00:54+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\lalasia\wp-content\plugins\custom-get-product-details.php:17
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): add_category_above_title('')
+#1 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\templates\content-product.php(49): do_action('woocommerce_sho...')
+#4 C:\xampp\htdocs\lalasia\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(190): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(81): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_archive_product()
+#8 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render(Array, '')
+#9 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#10 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(241): WP_Block->render()
+#11 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#12 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#13 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#14 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#15 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\plugins\custom-get-product-details.php on line 17
+
+2022-07-26T16:02:18+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\lalasia\wp-content\plugins\custom-get-product-details.php:17
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): add_category_above_title('')
+#1 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\templates\content-product.php(49): do_action('woocommerce_sho...')
+#4 C:\xampp\htdocs\lalasia\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(190): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(81): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_archive_product()
+#8 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render(Array, '')
+#9 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#10 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(241): WP_Block->render()
+#11 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#12 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#13 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#14 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#15 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\plugins\custom-get-product-details.php on line 17
+
+2022-07-26T16:26:16+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in C:\xampp\htdocs\lalasia\wp-content\plugins\custom-get-product-details.php:25
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): add_price_below_cat('')
+#1 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\templates\content-product.php(49): do_action('woocommerce_sho...')
+#4 C:\xampp\htdocs\lalasia\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(190): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(81): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_archive_product()
+#8 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render(Array, '')
+#9 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#10 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(241): WP_Block->render()
+#11 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#12 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#13 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#14 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#15 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\plugins\custom-get-product-details.php on line 25
+
+2022-07-26T16:28:21+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in C:\xampp\htdocs\lalasia\wp-content\plugins\custom-get-product-details.php:25
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): add_price_below_cat('')
+#1 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\templates\content-product.php(49): do_action('woocommerce_sho...')
+#4 C:\xampp\htdocs\lalasia\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(190): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ClassicTemplate.php(81): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_archive_product()
+#8 C:\xampp\htdocs\lalasia\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render(Array, '')
+#9 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#10 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(241): WP_Block->render()
+#11 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#12 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#13 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#14 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#15 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\plugins\custom-get-product-details.php on line 25
+
+2022-07-26T20:15:47+00:00 CRITICAL Uncaught Error: You need to run `npm start` or `npm run build` for the "block/testimonial" block first. in C:\xampp\htdocs\lalasia\wp-content\plugins\accordion-toggle\accordion-toggle.php:38
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): create_block_accordion_block_init('')
+#1 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lalasia\wp-settings.php(598): do_action('init')
+#4 C:\xampp\htdocs\lalasia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lalasia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\lalasia\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\plugins\accordion-toggle\accordion-toggle.php on line 38
+
+2022-07-26T20:15:47+00:00 CRITICAL Uncaught Error: You need to run `npm start` or `npm run build` for the "block/testimonial" block first. in C:\xampp\htdocs\lalasia\wp-content\plugins\accordion-toggle\accordion-toggle.php:38
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): create_block_accordion_block_init('')
+#1 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lalasia\wp-settings.php(598): do_action('init')
+#4 C:\xampp\htdocs\lalasia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lalasia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\lalasia\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\plugins\accordion-toggle\accordion-toggle.php on line 38
+

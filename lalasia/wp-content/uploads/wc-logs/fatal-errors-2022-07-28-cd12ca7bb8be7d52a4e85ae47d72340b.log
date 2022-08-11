@@ -1,0 +1,136 @@
+2022-07-28T20:22:21+00:00 CRITICAL syntax error, unexpected identifier "Total" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 14
+
+2022-07-28T20:22:38+00:00 CRITICAL syntax error, unexpected end of file, expecting "," or ";" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 14
+
+2022-07-28T20:22:49+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-settings.php(566): include()
+#1 C:\xampp\htdocs\lalasia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lalasia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lalasia\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 14
+
+2022-07-28T20:23:09+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-settings.php(566): include()
+#1 C:\xampp\htdocs\lalasia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lalasia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lalasia\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 15
+
+2022-07-28T20:41:39+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-settings.php(566): include()
+#1 C:\xampp\htdocs\lalasia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lalasia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lalasia\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 15
+
+2022-07-28T20:43:12+00:00 CRITICAL syntax error, unexpected end of file, expecting "," or ";" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T20:45:19+00:00 CRITICAL syntax error, unexpected end of file, expecting "," or ";" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T20:45:28+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-settings.php(566): include()
+#1 C:\xampp\htdocs\lalasia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lalasia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lalasia\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T20:45:40+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-settings.php(566): include()
+#1 C:\xampp\htdocs\lalasia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lalasia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lalasia\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T20:45:44+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-settings.php(566): include()
+#1 C:\xampp\htdocs\lalasia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lalasia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lalasia\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T21:29:44+00:00 CRITICAL syntax error, unexpected identifier "mini", expecting "," or ";" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 15
+
+2022-07-28T21:30:02+00:00 CRITICAL syntax error, unexpected identifier "mini", expecting "," or ";" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T21:30:28+00:00 CRITICAL syntax error, unexpected identifier "mini", expecting "," or ";" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T21:30:39+00:00 CRITICAL syntax error, unexpected identifier "mini", expecting "," or ";" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T21:30:52+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T21:30:55+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T21:31:27+00:00 CRITICAL Uncaught Error: Undefined constant "nbsp" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): wpshout_action_example('')
+#1 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lalasia\wp-includes\general-template.php(3042): do_action('wp_head')
+#4 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(17): wp_head()
+#5 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T21:31:28+00:00 CRITICAL Uncaught Error: Undefined constant "nbsp" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): wpshout_action_example('')
+#1 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lalasia\wp-includes\general-template.php(3042): do_action('wp_head')
+#4 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(17): wp_head()
+#5 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T21:32:17+00:00 CRITICAL Uncaught Error: Undefined constant "nbsp" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): wpshout_action_example('')
+#1 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lalasia\wp-includes\general-template.php(3042): do_action('wp_head')
+#4 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(17): wp_head()
+#5 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T21:32:18+00:00 CRITICAL Uncaught Error: Undefined constant "nbsp" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): wpshout_action_example('')
+#1 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lalasia\wp-includes\general-template.php(3042): do_action('wp_head')
+#4 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(17): wp_head()
+#5 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T21:32:26+00:00 CRITICAL syntax error, unexpected single-quoted string "; ?></div>", expecting "," or ";" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-07-28T22:01:44+00:00 CRITICAL syntax error, unexpected token ";" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 17
+

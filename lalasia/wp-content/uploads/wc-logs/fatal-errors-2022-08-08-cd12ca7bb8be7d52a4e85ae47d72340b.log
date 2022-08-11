@@ -1,0 +1,36 @@
+2022-08-08T16:17:04+00:00 CRITICAL Uncaught Error: Undefined constant "POST_ID" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:35
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-settings.php(566): include()
+#1 C:\xampp\htdocs\lalasia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lalasia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lalasia\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 35
+
+2022-08-08T16:17:32+00:00 CRITICAL Uncaught Error: Undefined constant "POST_ID" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:35
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-settings.php(566): include()
+#1 C:\xampp\htdocs\lalasia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lalasia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lalasia\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 35
+
+2022-08-08T16:18:02+00:00 CRITICAL Uncaught Error: Undefined constant "POST_ID" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:35
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-settings.php(566): include()
+#1 C:\xampp\htdocs\lalasia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lalasia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lalasia\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 35
+
+2022-08-08T16:18:20+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 36
+
+2022-08-08T16:18:21+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 36
+
+2022-08-08T16:18:21+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 36
+
+2022-08-08T16:35:49+00:00 CRITICAL syntax error, unexpected token "=", expecting "," or ";" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 26
+

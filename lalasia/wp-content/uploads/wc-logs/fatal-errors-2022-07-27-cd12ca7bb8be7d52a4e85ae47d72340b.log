@@ -1,0 +1,252 @@
+2022-07-27T22:23:12+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::the_excerpt() in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php:71
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1481): include()
+#1 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1351): LazyBlocks_Blocks->include_template('/blocks/lazyblo...', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): LazyBlocks_Blocks->render_callback(Array, '', 'frontend')
+#3 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#4 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:cover {...')
+#6 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(191): WP_Hook->apply_filters('<!-- wp:cover {...', Array)
+#7 C:\xampp\htdocs\lalasia\wp-includes\blocks\post-content.php(55): apply_filters('the_content', '<!-- wp:cover {...')
+#8 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): render_block_core_post_content(Array, '<!-- wp:cover {...', Object(WP_Block))
+#9 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#10 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#11 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#12 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php on line 71
+
+2022-07-27T22:32:34+00:00 CRITICAL Uncaught Error: Call to a member function product_cat() on null in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php:68
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1481): include()
+#1 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1351): LazyBlocks_Blocks->include_template('/blocks/lazyblo...', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): LazyBlocks_Blocks->render_callback(Array, '', 'frontend')
+#3 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#4 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:cover {...')
+#6 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(191): WP_Hook->apply_filters('<!-- wp:cover {...', Array)
+#7 C:\xampp\htdocs\lalasia\wp-includes\blocks\post-content.php(55): apply_filters('the_content', '<!-- wp:cover {...')
+#8 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): render_block_core_post_content(Array, '<!-- wp:cover {...', Object(WP_Block))
+#9 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#10 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#11 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#12 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php on line 68
+
+2022-07-27T22:32:46+00:00 CRITICAL Uncaught Error: Call to a member function product_cat() on null in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php:68
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1481): include()
+#1 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1351): LazyBlocks_Blocks->include_template('/blocks/lazyblo...', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): LazyBlocks_Blocks->render_callback(Array, '', 'frontend')
+#3 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#4 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:cover {...')
+#6 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(191): WP_Hook->apply_filters('<!-- wp:cover {...', Array)
+#7 C:\xampp\htdocs\lalasia\wp-includes\blocks\post-content.php(55): apply_filters('the_content', '<!-- wp:cover {...')
+#8 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): render_block_core_post_content(Array, '<!-- wp:cover {...', Object(WP_Block))
+#9 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#10 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#11 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#12 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php on line 68
+
+2022-07-27T22:34:56+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_category() in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php:68
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1481): include()
+#1 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1351): LazyBlocks_Blocks->include_template('/blocks/lazyblo...', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): LazyBlocks_Blocks->render_callback(Array, '', 'frontend')
+#3 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#4 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:cover {...')
+#6 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(191): WP_Hook->apply_filters('<!-- wp:cover {...', Array)
+#7 C:\xampp\htdocs\lalasia\wp-includes\blocks\post-content.php(55): apply_filters('the_content', '<!-- wp:cover {...')
+#8 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): render_block_core_post_content(Array, '<!-- wp:cover {...', Object(WP_Block))
+#9 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#10 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#11 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#12 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php on line 68
+
+2022-07-27T22:36:45+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_category_name() in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php:68
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1481): include()
+#1 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1351): LazyBlocks_Blocks->include_template('/blocks/lazyblo...', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): LazyBlocks_Blocks->render_callback(Array, '', 'frontend')
+#3 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#4 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:cover {...')
+#6 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(191): WP_Hook->apply_filters('<!-- wp:cover {...', Array)
+#7 C:\xampp\htdocs\lalasia\wp-includes\blocks\post-content.php(55): apply_filters('the_content', '<!-- wp:cover {...')
+#8 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): render_block_core_post_content(Array, '<!-- wp:cover {...', Object(WP_Block))
+#9 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#10 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#11 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#12 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php on line 68
+
+2022-07-27T22:37:37+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::wc_get_product_category_list() in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php:68
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1481): include()
+#1 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1351): LazyBlocks_Blocks->include_template('/blocks/lazyblo...', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): LazyBlocks_Blocks->render_callback(Array, '', 'frontend')
+#3 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#4 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:cover {...')
+#6 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(191): WP_Hook->apply_filters('<!-- wp:cover {...', Array)
+#7 C:\xampp\htdocs\lalasia\wp-includes\blocks\post-content.php(55): apply_filters('the_content', '<!-- wp:cover {...')
+#8 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): render_block_core_post_content(Array, '<!-- wp:cover {...', Object(WP_Block))
+#9 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#10 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#11 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#12 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php on line 68
+
+2022-07-27T22:37:54+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::product_category_list() in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php:68
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1481): include()
+#1 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1351): LazyBlocks_Blocks->include_template('/blocks/lazyblo...', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): LazyBlocks_Blocks->render_callback(Array, '', 'frontend')
+#3 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#4 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:cover {...')
+#6 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(191): WP_Hook->apply_filters('<!-- wp:cover {...', Array)
+#7 C:\xampp\htdocs\lalasia\wp-includes\blocks\post-content.php(55): apply_filters('the_content', '<!-- wp:cover {...')
+#8 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): render_block_core_post_content(Array, '<!-- wp:cover {...', Object(WP_Block))
+#9 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#10 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#11 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#12 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php on line 68
+
+2022-07-27T22:38:26+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::wc_get_product_category_list() in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php:68
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1481): include()
+#1 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1351): LazyBlocks_Blocks->include_template('/blocks/lazyblo...', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): LazyBlocks_Blocks->render_callback(Array, '', 'frontend')
+#3 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#4 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:cover {...')
+#6 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(191): WP_Hook->apply_filters('<!-- wp:cover {...', Array)
+#7 C:\xampp\htdocs\lalasia\wp-includes\blocks\post-content.php(55): apply_filters('the_content', '<!-- wp:cover {...')
+#8 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): render_block_core_post_content(Array, '<!-- wp:cover {...', Object(WP_Block))
+#9 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#10 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#11 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#12 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php on line 68
+
+2022-07-27T22:38:35+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::product_category_list() in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php:68
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1481): include()
+#1 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1351): LazyBlocks_Blocks->include_template('/blocks/lazyblo...', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): LazyBlocks_Blocks->render_callback(Array, '', 'frontend')
+#3 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#4 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:cover {...')
+#6 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(191): WP_Hook->apply_filters('<!-- wp:cover {...', Array)
+#7 C:\xampp\htdocs\lalasia\wp-includes\blocks\post-content.php(55): apply_filters('the_content', '<!-- wp:cover {...')
+#8 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): render_block_core_post_content(Array, '<!-- wp:cover {...', Object(WP_Block))
+#9 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#10 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#11 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#12 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php on line 68
+
+2022-07-27T22:38:48+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_product_category_list() in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php:68
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1481): include()
+#1 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1351): LazyBlocks_Blocks->include_template('/blocks/lazyblo...', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): LazyBlocks_Blocks->render_callback(Array, '', 'frontend')
+#3 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#4 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:cover {...')
+#6 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(191): WP_Hook->apply_filters('<!-- wp:cover {...', Array)
+#7 C:\xampp\htdocs\lalasia\wp-includes\blocks\post-content.php(55): apply_filters('the_content', '<!-- wp:cover {...')
+#8 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): render_block_core_post_content(Array, '<!-- wp:cover {...', Object(WP_Block))
+#9 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#10 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#11 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#12 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php on line 68
+
+2022-07-27T22:40:07+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::category_list() in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php:68
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1481): include()
+#1 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1351): LazyBlocks_Blocks->include_template('/blocks/lazyblo...', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): LazyBlocks_Blocks->render_callback(Array, '', 'frontend')
+#3 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#4 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:cover {...')
+#6 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(191): WP_Hook->apply_filters('<!-- wp:cover {...', Array)
+#7 C:\xampp\htdocs\lalasia\wp-includes\blocks\post-content.php(55): apply_filters('the_content', '<!-- wp:cover {...')
+#8 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): render_block_core_post_content(Array, '<!-- wp:cover {...', Object(WP_Block))
+#9 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#10 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#11 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#12 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php on line 68
+
+2022-07-27T22:40:17+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::_category_list() in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php:68
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1481): include()
+#1 C:\xampp\htdocs\lalasia\wp-content\plugins\lazy-blocks\classes\class-blocks.php(1351): LazyBlocks_Blocks->include_template('/blocks/lazyblo...', Array)
+#2 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): LazyBlocks_Blocks->render_callback(Array, '', 'frontend')
+#3 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#4 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#5 C:\xampp\htdocs\lalasia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:cover {...')
+#6 C:\xampp\htdocs\lalasia\wp-includes\plugin.php(191): WP_Hook->apply_filters('<!-- wp:cover {...', Array)
+#7 C:\xampp\htdocs\lalasia\wp-includes\blocks\post-content.php(55): apply_filters('the_content', '<!-- wp:cover {...')
+#8 C:\xampp\htdocs\lalasia\wp-includes\class-wp-block.php(255): render_block_core_post_content(Array, '<!-- wp:cover {...', Object(WP_Block))
+#9 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(901): WP_Block->render()
+#10 C:\xampp\htdocs\lalasia\wp-includes\blocks.php(939): render_block(Array)
+#11 C:\xampp\htdocs\lalasia\wp-includes\block-template.php(240): do_blocks('<!-- wp:templat...')
+#12 C:\xampp\htdocs\lalasia\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 C:\xampp\htdocs\lalasia\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lalasia\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\blocks\lazyblock-product-count\block.php on line 68
+

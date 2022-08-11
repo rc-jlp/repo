@@ -1,0 +1,20 @@
+2022-08-03T23:03:53+00:00 CRITICAL Uncaught Error: Undefined constant "post" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php:13
+Stack trace:
+#0 C:\xampp\htdocs\lalasia\wp-settings.php(566): include()
+#1 C:\xampp\htdocs\lalasia\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lalasia\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lalasia\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lalasia\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 13
+
+2022-08-03T23:04:47+00:00 CRITICAL syntax error, unexpected token "function", expecting "," or ";" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
+2022-08-03T23:07:03+00:00 CRITICAL syntax error, unexpected variable "$post", expecting "{" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 13
+
+2022-08-03T23:07:42+00:00 CRITICAL Cannot redeclare get_the_title() (previously declared in C:\xampp\htdocs\lalasia\wp-includes\post-template.php:117) in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 12
+
+2022-08-03T23:09:27+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 14
+
+2022-08-03T23:31:38+00:00 CRITICAL syntax error, unexpected identifier "val" in C:\xampp\htdocs\lalasia\wp-content\themes\lalasia\functions.php on line 16
+
